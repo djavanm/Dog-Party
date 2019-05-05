@@ -1,4 +1,6 @@
-## Dog Party Overview
+## Dog Party 
+ This is a single page website that allows the user to enter their favorite dog's name into a text field, which will then load the input into the main header of the site. This site was built with HTML, CSS, and Javascript.
+
 
 # Project Overview: 
 Dog Party was my first real project here at Turing. I learned the important fundamentals of constructing
