@@ -23,8 +23,6 @@ body {
 	border-radius: 60%;
 	border: 4px solid #9A969C;
     margin: 30px 70px 0px 70px;
-    /*display: inline-block;*/
-
 
 }
 
@@ -83,7 +81,7 @@ h1 {
 	margin-right: 0px;
 }
 
-#dog-name {
+#doggy {
 	font-weight: 600;
 }
 
@@ -98,6 +96,7 @@ label {
 input[type=text] {
 	height: 50px;
 	width: 380px;
+	font-size: 25px;
 }
 
 #name-this-dog {
@@ -208,12 +207,12 @@ hr.not-visible {
 	/*Footer */
 
 footer {
-		height: 200px;
-		background-color: #3E3544;
-		margin-left: 180px;
-		color: #ffffff;
-		font-size: 20px;
-		font-weight: 500;
+	height: 200px;
+	background-color: #3E3544;
+	margin-left: 180px;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 500;
 }
 
 .footer{
@@ -250,46 +249,3 @@ footer {
 .facebook {
 	padding-right: 30px;
 }
-
-/*	.foot-text {
-		float: center;
-		display: inline;
-		margin-right: 300px;
-	}*/
-
-	/*.social {
-	float: right;
-	margin-top: 50px;
-	margin-right: 50px;*/
-	/*margin-top: 300px;*/
-
-
-	}
-
-	/*.twitter{
-	margin-right: 20px;
-	margin-bottom: 20px;*/
-	/*display: inherit;*/
-/*	}
-	.instagram {
-	margin-bottom: 20px;
-
-	}
-*/	
-/*.facebook {
-	margin-right: 100px;
-	position: absolute;
-	display: inherit;
-	}
-*/
-	.linkedin {
-	position: absolute;
-    margin-left: 80px;
-	}
-
-/*
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}*/

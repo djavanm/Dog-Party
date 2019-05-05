@@ -36,6 +36,7 @@ header a {
 nav {
 	width: 100%;
 	padding-top: 15px;
+	display: inline;
 }
 
 li {
@@ -45,17 +46,17 @@ li {
 	margin-right: 15px;
 	font-size: 16px;
 	font-weight: 600;
-	padding: 5px 12px 15px 12px;
+	padding: 15px 12px 15px 12px;
 }
 
 #dog-icon {
-	width: 50px;
-	height: 50px;
+	width: 60px;
+	height: 60px;
 	float: left;
-	position: absolute;
-	top: 5px;
+	margin-bottom: 5px;
 	left: 300px;
-	/*padding: 5px 0px 5px 15px;*/
+	margin: 0;
+	padding: 0px 0px 5px 15px;
 
 }
 
@@ -76,6 +77,7 @@ input {
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 	color: black;
+	font-size: 25px;
 }
 
 input[type=text] {
@@ -100,7 +102,7 @@ input[type=text] {
 	font-size: 20px;
 }
  
-#dog-name {
+#doggy {
 	font-weight: bold;
 }
 
@@ -126,7 +128,6 @@ input[type=text] {
 	text-align: left;
 	margin-left: 340px;
 }
-
 
 
 		/* Main */
@@ -193,28 +194,38 @@ hr {
 	padding: 25px;
 	height: 180px;
 }
+
 .social {
 	padding-right: 15px;
 }
+
 .twitter{
 	margin-right: 7px;
+}
 
-	}
-	.instagram {
+.instagram {
 	margin-right: 7px;
+}
 
-	}
-	.facebook {
+.facebook {
 	margin-right: 7px;
-	}
+}
 
-	.linkedin {
+.linkedin {
 	margin-right: 7px;
-	}
+}
 
 .foot-text {
 	padding: 20px 0px 30px 0px;
 	font-size: 18px;
 }
 
+@media screen and (max-width: 1375px) {
+	body {
+		max-width: 100%
+		margin: 0;
+	}
+
+	how-dog, #what-dog, #facts-dog {
+	width: 30%;
 }
