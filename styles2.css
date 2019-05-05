@@ -1,0 +1,295 @@
+	/*Global*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	/*border:red 1px solid*/
+
+}
+
+body {
+	font-family: 'Roboto Slab', serif;
+	border: 2px solid black;
+	margin: auto;
+	width: 80%;
+	min-width: 720px;
+	max-width: 1080px;
+
+}
+
+.dog-pic {
+	height: 200px;
+	border-radius: 60%;
+	border: 4px solid #9A969C;
+    margin: 30px 70px 0px 70px;
+    /*display: inline-block;*/
+
+
+}
+
+	/*Nav Side*/
+
+.dog-icon {
+	padding: 15px 0 0 25px;
+	height: 150px;
+	width: 150px;
+	
+}
+
+header {
+	width: 180px;
+	height: 1675px;
+	border-right: 2px solid black;
+	float: left;
+	background-color: #9A969C;
+	padding-bottom: 0;
+	position: fixed;
+}
+
+nav {
+	text-decoration: none;
+}
+
+a,
+ul {
+	text-decoration: none;
+	list-style-type: none;
+	color: black;
+
+}
+
+li {
+	padding-top: 30px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	font-weight: 600;
+}
+
+/* Top Form*/
+
+#first-dog {
+	height: 330px;
+	margin: 20px 0 20px 40px;
+	border: 8px solid #9A969C;
+}
+
+h1 {
+	display: inline-block;
+	margin-top: 50px;
+	font-weight: 100;
+	font-size: 35px;
+	margin-bottom: 50px;
+	margin-right: 0px;
+}
+
+#dog-name {
+	font-weight: 600;
+}
+
+label {
+	display: block;
+	font-weight: 100;
+	font-size: 120%;
+	margin-right: 320px;
+	margin-bottom: 10px;
+}
+
+input[type=text] {
+	height: 50px;
+	width: 380px;
+}
+
+#name-this-dog {
+	background-color: #3E3544;
+	height: 370px;
+	color: white;
+	text-align: center;
+	margin-left: 180px;
+}
+
+#first-dog {
+	float: left;
+}
+
+button {
+	display: inline-block;
+}
+
+.submitbtn {
+	font-family: 'Roboto Slab', serif;
+	width: 380px;
+	height: 50px;
+	margin: 20px;
+	background-color: #9A969C;
+	font-size: 18px;
+	font-weight: 600;
+
+}
+
+	/*Main*/
+
+main {
+	margin-left: 180px;
+}
+
+#how-dog {
+ 	height: auto;
+ 	margin-bottom: 30px;
+
+}
+
+#what-dog {
+	height: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#facts-dog {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	height: auto;
+}
+
+#dog-profiles {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+p.dog-header {
+	margin-top: 10px;
+	margin-bottom: 0px;
+	margin-left: 110px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+p.text {
+	font-weight: 300;
+	float: right;
+	width: 500px;
+	padding-top: 50px;
+	margin-bottom: 0px;
+	margin-right: 5px;
+}
+
+.buttons {
+	font-family: 'Roboto Slab', serif;
+	font-size: 15px;
+	font-weight: bold;
+	float: right;
+	width: 200px;
+	height: 50px;
+	color: #ffffff;
+	background-color: #3E3544;
+	text-align: center;
+
+}
+
+#butt-how {
+	margin-top: -50px;
+	margin-right: 30px;
+}
+
+#butt-what {
+	margin-top: -50px;
+	margin-right: 30px;
+}
+
+#butt-facts {
+	margin-top: -50px;
+	margin-right: 30px;
+}
+
+hr.not-visible {
+	visibility: collapse;
+}
+
+	/*Footer */
+
+footer {
+		height: 200px;
+		background-color: #3E3544;
+		margin-left: 180px;
+		color: #ffffff;
+		font-size: 20px;
+		font-weight: 500;
+}
+
+.footer{
+	float: right;
+}
+
+.foot-text {
+	margin-top: 50px;
+	display: inline-block;
+	margin-right: 25px;
+	font-weight: 500;
+	font-size: 25px;
+}
+
+.social {
+	float: right;
+	width: 200px;
+	display: inline-block;
+	margin-right: -20px;
+	margin-top: 20px;
+}
+
+.twitter {
+	padding-top: 30px;
+	padding-right: 18px;
+	padding-bottom: 20px;
+}
+
+.instagram {
+	padding-right: 30px;
+	padding-bottom: 20px;
+}
+
+.facebook {
+	padding-right: 30px;
+}
+
+/*	.foot-text {
+		float: center;
+		display: inline;
+		margin-right: 300px;
+	}*/
+
+	/*.social {
+	float: right;
+	margin-top: 50px;
+	margin-right: 50px;*/
+	/*margin-top: 300px;*/
+
+
+	}
+
+	/*.twitter{
+	margin-right: 20px;
+	margin-bottom: 20px;*/
+	/*display: inherit;*/
+/*	}
+	.instagram {
+	margin-bottom: 20px;
+
+	}
+*/	
+/*.facebook {
+	margin-right: 100px;
+	position: absolute;
+	display: inherit;
+	}
+*/
+	.linkedin {
+	position: absolute;
+    margin-left: 80px;
+	}
+
+/*
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}*/
