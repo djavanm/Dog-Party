@@ -15,6 +15,7 @@ body {
 	width: 80%;
 	min-width: 720px;
 	max-width: 1080px;
+	height: 100%;
 
 }
 
@@ -37,7 +38,7 @@ body {
 
 header {
 	width: 180px;
-	height: 1675px;
+	height: 1515px;
 	border-right: 2px solid black;
 	float: left;
 	background-color: #9A969C;

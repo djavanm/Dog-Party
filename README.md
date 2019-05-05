@@ -20,13 +20,11 @@ I also had a hard time completing the responsive portion. My sites do not scale 
 I think this comp taught me how to set up a Nav bar, and write semantic HTML. I did not start the project with a good
 understanding of when to use ID's and Classes, but I feel like my understanding had improved over course of the week. 
 <img src="images/TuringComp1.png">
-<img src="images/comp1top.png">
-<img src="images/comp1bott.png">
+<img src="images/comp1Djavan.png">
 
 # Comp 2 Highlights:
 This comp taught me a lot about using positioning in differing ways to align content horizantally instead of vertically. 
 The footer and header in particular was a struggle for me well, until I remembered to properly use inline-blocks in order to move the necessary elements inside their respective containers. 
 
 <img src="images/TuringComp2.png">
-<img src="images/comp2top.png">
-<img src="images/comp2bott.png">
+<img src="images/comp2Djavan.png">
